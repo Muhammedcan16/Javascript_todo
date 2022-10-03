@@ -1,0 +1,57 @@
+body{
+/*tüm html sayfasının genel özellikleri*/
+    margin:0;
+    padding:0;
+    background-color: rgb(26, 142, 180);
+/* Listeyi ortalayacağım. */
+    display: flex;
+    align-items: center;
+    flex-direction : column;
+}
+
+input{
+/*listeye yazacağımız kısmın özellikleri*/
+height:50px;
+width:450px;
+}
+
+button{
+/*Butonların özellikleri*/
+    height:55px;
+    width:55px;
+}
+.icerik{
+/*yapılacakların aşağıda sıralanacağı alanın özellikleri*/
+height:500px;
+width:515px;
+background-color:white;
+margin-top:10px;
+}
+
+.deleteButton{
+    height:30px;
+    width:30px;
+    background-color:red;
+    display: inline-block;
+    color:white;
+    margin-left:10px;
+    padding-left:5px;
+    cursor:pointer;
+
+}
+
+.finishButton{
+    height:30px;
+    width:85px;
+    background-color:rgb(10, 2, 255);
+    display: inline-block;
+    color:white;
+    margin-left:10px;
+    padding-left:5px;
+    cursor: pointer;
+
+}
+
+.deneme{
+    text-decoration: line-through;
+}
